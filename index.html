@@ -1,17 +1,9 @@
 <!-- 
-  Hello 😊.
+  Portfolio Template Customized for DevOps by Mohamed Zouari
+  Based on original design by Nisar Hassan Naqvi
 
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/med-zouari07/github-portfolio
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
+  Github: https://github.com/med-zouari07
+  Contact: zouarimohamrd@gmail.com
 -->
 
 <!DOCTYPE html>
@@ -22,43 +14,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
-  <title>
-    Mohamed Zouari | DevOps Engineer & Linux SysAdmin  based in Tunisia </title>
+  <title>Mohamed Zouari | DevOps Engineer & Cloud Specialist | Tunisia</title>
 
-  <meta name="description" content="I have over 2 years of experience as a DevOps Engineer.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Mohamed Zouari, Docker, Python , Jenkins, Ansible, Zabbix" />
+  <meta name="description" content="DevOps Engineer with 2+ years experience in CI/CD, cloud infrastructure, and automation. AWS | Docker | Kubernetes | Terraform">
+  <meta name="keywords" content="Mohamed Zouari, DevOps, AWS, Docker, Kubernetes, CI/CD, Ansible, Terraform, Jenkins" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
 
   <!-- ***** Header ***** -->
-
   <header class="header" role="banner" id="top">
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
           <span>Mohamed Zouari</span>
         </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>DevOps Engineer & Linux SysAdmin  based in Tunisia </title></p>
+        <p>DevOps Engineer | Cloud Architect | Automation Specialist</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
@@ -66,189 +48,185 @@
 
   <main role="main">
 
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
+    <!-- ***** Projects ***** -->
+    <section class="work" id="projects">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>DevOps Projects</h2>
         <div class="work__boxes">
 
-          <!-- Each div with the work__box class is a project. -->
-
+          <!-- Project 1: CI/CD Pipeline -->
           <div class="work__box">
-            
-            
-
-              
-                <a href="https://hoffstech.com" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+            <div class="work__text">
+              <h3>Automated CI/CD Pipeline</h3>
+              <p>
+                Designed a Jenkins-based CI/CD pipeline with GitHub integration that reduced deployment time by 70%. 
+                Implemented automated testing, containerization with Docker, and deployment to Kubernetes clusters.
+              </p>
+              <ul class="work__list">
+                <li>Jenkins</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>Python</li>
+                <li>Groovy</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://github.com/med-zouari07/cicd-pipeline" target="_blank" class="link__text">
+                  View Project <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/med-zouari07/github-portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/med-zouari07/cicd-pipeline" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/cicd-pipeline.png" class="work__image" alt="CI/CD Pipeline" />
             </div>
           </div>
 
+          <!-- Project 2: Cloud Infrastructure -->
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>AWS Infrastructure as Code</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Built scalable AWS infrastructure using Terraform, automating VPCs, EC2 instances, 
+                and RDS databases. Reduced cloud costs by 35% through right-sizing and auto-scaling.
               </p>
               <ul class="work__list">
+                <li>Terraform</li>
+                <li>AWS (EC2, S3, RDS)</li>
+                <li>Ansible</li>
+                <li>Bash</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://github.com/med-zouari07/aws-terraform" target="_blank" class="link__text">
+                  View Project <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/med-zouari07/aws-terraform" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/terraform-aws.png" class="work__image" alt="Terraform AWS" />
+            </div>
+          </div>
+
+          <!-- Project 3: Monitoring System -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Cloud Monitoring Dashboard</h3>
+              <p>
+                Implemented a Grafana/Prometheus monitoring solution with custom alerts that reduced 
+                incident response time by 60%. Integrated with Slack for real-time notifications.
+              </p>
+              <ul class="work__list">
+                <li>Prometheus</li>
+                <li>Grafana</li>
                 <li>Python</li>
                 <li>Docker</li>
-                <li>Jenkins</li>
-                <li>Ansible</li>
+                <li>Slack API</li>
               </ul>
-
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://github.com/med-zouari07/cloud-monitoring" target="_blank" class="link__text">
+                  View Project <span>&rarr;</span>
                 </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                <a href="https://github.com/med-zouari07/cloud-monitoring" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/monitoring-dashboard.png" class="work__image" alt="Monitoring Dashboard" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
+    <!-- ***** Skills ***** -->
+    <section class="client" id="skills">
       <div class="row">
-        <h2>Clients</h2>
+        <h2>Technical Skills</h2>
         <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+          <img src="./images/aws-logo.png" class="client__logo" alt="AWS" title="AWS" />
+          <img src="./images/docker-logo.png" class="client__logo" alt="Docker" title="Docker" />
+          <img src="./images/kubernetes-logo.png" class="client__logo" alt="Kubernetes" title="Kubernetes" />
+          <img src="./images/terraform-logo.png" class="client__logo" alt="Terraform" title="Terraform" />
+          <img src="./images/jenkins-logo.png" class="client__logo" alt="Jenkins" title="Jenkins" />
+          <img src="./images/python-logo.png" class="client__logo" alt="Python" title="Python" />
         </div>
       </div>
     </section>
 
     <!-- ***** About ***** -->
-
     <section class="about" id="about">
       <div class="row">
         <h2>About Me</h2>
         <div class="about__content">
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
             <p>
-              I design and automate CI/CD pipelines, cloud infrastructure (AWS/Azure/GCP), and deployments using tools like Docker, Kubernetes, and Terraform. I ensure scalability, security, and reliability while monitoring systems for optimal performance
+              DevOps professional with 2+ years of experience designing and implementing cloud-native solutions. 
+              I specialize in:
             </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <ul>
+              <li>Building automated CI/CD pipelines (Jenkins/GitHub Actions)</li>
+              <li>Container orchestration with Docker and Kubernetes</li>
+              <li>Infrastructure as Code (Terraform, Ansible)</li>
+              <li>Cloud architecture (AWS, Azure)</li>
+              <li>Monitoring and logging (Prometheus, ELK Stack)</li>
+            </ul>
+            <p>Passionate about optimizing development workflows and implementing DevOps best practices.</p>
+            <a href="./resume.pdf" class="btn">Download Resume</a>
           </div>
-
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/shelley.png" alt="" />
+            <img class="about__photo" src="./images/profile.jpg" alt="Mohamed Zouari" />
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Contact ***** -->
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Looking for a DevOps engineer to optimize your infrastructure? Need consultation on cloud migration, 
+            CI/CD implementation, or infrastructure automation? Or just want to connect?
+          </p>
+          <p>
+            I'm currently available for freelance projects and full-time opportunities. 
+            Let's discuss how I can help streamline your operations!
+          </p>
+          <a href="mailto:zouarimohamrd@gmail.com" class="btn">zouarimohamrd@gmail.com</a>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Are you looking to streamline your deployments with CI/CD pipelines? Need help with cloud infrastructure (AWS/Azure/GCP), Kubernetes, or automation? Or just want to discuss DevOps best practices? Maybe say "Hi 👋"?
-
-          In any case, feel free to reach out! I’ll do my best to respond promptly. 😊
-          The quickest way to contact me is via email:
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="zouarimohamrd@gmail.com " class="btn">zouarimohamrd@gmail.com </a>
-      </div>
-    </div>
-  </section>
-
   <!-- ***** Footer ***** -->
-
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
         <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+          <a href="https://linkedin.com/in/yourprofile" title="LinkedIn">
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/med-zouari07" title="GitHub">
+            <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/yourhandle" title="Twitter">
             <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
           </a>
         </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
       </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
-        &copy; 2025 - Template designed & developed by <a href="Mohamed ZOUARI" class="link">MOHAMED ZOUARI</a>.
+        &copy; 2025 - Portfolio template customized by <a href="#" class="link">Mohamed Zouari</a>.
       </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
     </div>
   </footer>
 
